@@ -46,9 +46,9 @@ class CallsScreen extends StatelessWidget {
               },
             ),
             const SizedBox(height: 20,),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const[
+              children: [
                 Icon(Icons.lock,color: Colors.black,size: 14,), SizedBox(width: 2,),
                 Text("Your chats are end to end ecnxrypted",style: TextStyle(color: Colors.teal,fontSize: 13),)
               ],
