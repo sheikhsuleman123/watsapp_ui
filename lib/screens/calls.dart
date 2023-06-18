@@ -22,7 +22,7 @@ class CallsScreen extends StatelessWidget {
                 ),
               ),
               title: const Text("Create call link",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 14),),
-              subtitle: const Text("Sgare a link for your watsapp call"),
+              subtitle: const Text("Share a link for watsapp call"),
             ),
             const SizedBox(height: 15),
             const Padding(
@@ -37,7 +37,7 @@ class CallsScreen extends StatelessWidget {
               shrinkWrap: true,
               itemBuilder : (context, index)  {
                 return const ListTile(
-                  title: Text("Usman"),
+                  title: Text("Suleman"),
                   subtitle: Text("Today, 2:05 pm"),
                   leading: CircleAvatar(radius: 24,
                       backgroundImage: AssetImage("assets/images/man.jpg")),
